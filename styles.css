@@ -11,21 +11,15 @@ body {
     margin: 0px;
     display: flex;
     gap: 15px;
-    margin-right: 26px;
+    flex-wrap: none;
 }
 
 .main-head {
     font-weight: 800;
     font-size: 24px;
+    
 }
 
-.head-link {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.head-link {
-    color: white;
-}
 
 a {
     text-decoration: none;
@@ -34,9 +28,11 @@ a {
 .header {
     display: flex;
     justify-content: space-between;
-    margin-left: 100px;
+   
     align-items: center;
     color: white;
+    margin-right: 250px;
+    margin-left: 250px;
 }
 
 .top-container {
@@ -47,4 +43,57 @@ a {
 
 .footer {
     background-color: #1F2937;
+}
+
+.top-content {
+    display: flex;
+    margin-top: 100px;
+    margin-right: 250px;
+    margin-left: 250px;
+    margin-bottom: 50px;
+    justify-content: space-between;
+    flex-shrink: 0;
+    flex-grow: 0;
+   
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    font-family: Arial;
+    margin-bottom: 10px;
+}
+
+.hero-subtext,
+.head-link {
+    font-size: 18px;
+    color: #F9FAF8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.placeholder-img {
+    margin-left: 50px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    align-self: center;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    color: white;
+    width: 150px;
+    height: 40px;;
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+}
+
+.head-text-container {
+    flex-grow: 0;
+    flex-wrap: wrap
 }
